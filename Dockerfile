@@ -3,5 +3,4 @@ MAINTAINER https://github.com/sthysel/docker-haxornews
 
 RUN pip install haxor-news
 
-ENTRYPOINT ["hn"]
-CMD ["--help"]
+CMD ["haxor-news"]
