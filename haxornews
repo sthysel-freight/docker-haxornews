@@ -1,0 +1,9 @@
+#!/bin/bash
+# Runs haxor-news from a container
+
+set -e
+
+VERSION="latest"
+IMAGE="sthysel/haxornews:$VERSION"
+
+exec docker run --rm -it $IMAGE $@
