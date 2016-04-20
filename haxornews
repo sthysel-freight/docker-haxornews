@@ -3,7 +3,6 @@
 
 set -e
 
-VERSION="latest"
-IMAGE="sthysel/haxornews:$VERSION"
+IMAGE="sthysel/haxornews
 
 exec docker run --rm -it $IMAGE $@
